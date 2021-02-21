@@ -1,0 +1,200 @@
+/*author: Onlineleraner URL: http://www.onlinelearnal.com*/
+
+
+/* /* menu  */
+
+.gsc-control-cse {
+    padding: 1.3em !important;
+}
+
+.nav-bg-color {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-contain {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.navbar img {
+    width: 100px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-list .menu {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 78px;
+    padding: 0 17px;
+    text-decoration: none;
+}
+
+.nav-list .menu:hover {
+    color: #3587b6;
+}
+
+@media (max-width: 1200px) {
+    .nav-list .menu,
+    .menu-last {
+        text-align: center;
+        padding: 0px 16px;
+    }
+    .last-spc {
+        padding: 0 10px!important;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-list .menu,
+    .menu-last {
+        text-align: center;
+        padding: 0px 0px!important;
+    }
+    .navbar-nav .color-line {
+        display: none;
+    }
+    .breadcrumb {
+        letter-spacing: 1px;
+    }
+}
+
+
+/* menu end */
+
+/* recent blog */
+
+.recent-blog-text h4 {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 27px;
+}
+
+.recent-blog-text p {
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Open Sans';
+    min-height: 84px;
+}
+
+.recent-blog-text a {
+    background-color: #026792;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 6px;
+    border: none;
+}
+
+.view-detail {
+    background-color: rgb(2, 103, 146);
+}
+
+.view-detail:hover {
+    background-color: rgb(13, 147, 204);
+    text-decoration: underline;
+}
+
+
+/* Footer */
+
+footer {
+    background: black;
+    padding: 28px;
+    color: #eee;
+    display: flex;
+}
+
+footer a {
+    color: white;
+}
+
+footer #left-footer {
+    flex: 1;
+    border-right: 1px solid red;
+    padding-left: 32px;
+}
+
+footer #left-footer ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+}
+
+footer #right-footer {
+    flex: 2;
+    padding: 8px;
+    text-align: center;
+}
+
+footer #social-media-footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+footer #social-media-footer ul li {
+    font-size: 48px;
+    padding: 16px;
+    transition: 0.4s;
+}
+
+footer #social-media-footer ul li:hover a .fa-instagram {
+    color: pink;
+}
+
+footer #social-media-footer ul li:hover a .fa-facebook {
+    color: #3b5998;
+}
+
+footer #social-media-footer ul li:hover a .fa-twitter {
+    color: skyblue;
+}
+
+@media (max-width: 719px) {
+    main {
+        width: 95%;
+    }
+    section {
+        flex-direction: column;
+    }
+    .card,
+    .card .card-image img {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer #left-footer {
+        flex: 1;
+        border-right: 0;
+        padding-left: 0;
+    }
+    footer #right-footer {
+        background: #eee;
+        color: black;
+    }
+    footer #right-footer a {
+        color: black;
+    }
+}
+
+.copyright-text {
+    margin: auto 50px;
+}
+
+
+/* footer end */
